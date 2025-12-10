@@ -30,7 +30,7 @@ export function Login() {
         try {
             await login('demo@oceanclean.com');
             toast.success('Welcome to Demo Mode!');
-            navigate('/marketplace');
+            navigate('/fisherman-dashboard');
         } catch (error) {
             toast.error('Failed to start demo');
         } finally {

@@ -71,7 +71,7 @@ export function FishermanDashboard() {
               <div className="p-1.5 bg-cyan-500/10 rounded-lg">
                 <FileText className="w-4 h-4 text-cyan-400" />
               </div>
-              Log Collection
+              Log Catch
             </span>
             <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-white transition-colors" />
           </WireframeButton>
